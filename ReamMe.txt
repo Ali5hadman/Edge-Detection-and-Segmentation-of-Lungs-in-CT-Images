@@ -1,0 +1,29 @@
+
+In the folder "To be used to segment Lungs" :
+6 files can be found which has to be copy pasted in the same file as the DCM files! 
+	4 X&Y cordinates --> for four different segmentation 
+	1 readDCMfolder  --> To read the DCM files 
+	1 matlab code    --> the code for segmenting the lungs 
+
+
+
+In the folder "segmented lungs" :
+41 files can be found!
+	10 Segmented lungs from axial POV 
+	10 Segmented lungs from Saggital POV 
+	10 Segmented lungs from coronal POV
+	10 Segmented lungs from noisy images
+	1 matlab code to compare them! 
+
+
+The lungs were segmented using the "To_segment_lungs" code for  the 10 intervals!
+
+##############################################################################################
+
+lungT0 = Segmented lung from "axial" view. @T0 and.... (Using XY cordinates to segment)
+
+lungcorT0 = Segmented lung from "coronal" view. @T0 and.... (Using XYsag cordinates to segment)
+
+lungSagT0 = Segmented lung from "sagittal" view.   @T0 and.... (Using XYcor cordinates to segment)
+
+lungT0wsp = Segmented lung with salt & peper noise.Segmented lung from "sagittal" view.  @T0 and.... (Using XYwsp cordinates to segment)
